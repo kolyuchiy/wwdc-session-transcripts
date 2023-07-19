@@ -3559,7 +3559,7 @@ particular item provider's data
 
 00:40:58.766 --> 00:41:01.346 A:middle
 and we're going to want to do
-that on a background cue so as
+that on a background queue so as
 
 
 WEBVTT
@@ -3567,7 +3567,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.766 --> 00:41:01.346 A:middle
 and we're going to want to do
-that on a background cue so as
+that on a background queue so as
 
 00:41:01.376 --> 00:41:03.696 A:middle
 to not disrupt the main thread.
@@ -3635,7 +3635,7 @@ important to note
 
 00:41:49.026 --> 00:41:53.196 A:middle
 that loadItemForTypeIdentifier
-completes on an arbitrary cue
+completes on an arbitrary queue
 
 00:41:53.346 --> 00:41:55.256 A:middle
 and since we're going to do
@@ -3643,7 +3643,7 @@ view controller work I'm going
 
 00:41:55.256 --> 00:41:56.966 A:middle
 to need to dispatch
-async onto the main cue
+async onto the main queue
 
 00:41:56.966 --> 00:41:57.766 A:middle
 to actually do that work.
